@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:mytestapp/answer1.dart';
+//import 'package:mytestapp/page_navigator/first_page.dart';
+//import 'package:mytestapp/my_stateful_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,13 +14,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-          useMaterial3: true,
-        ),
-        home: const GreetingWidget(name: 'ศุภกาญจน์ ไข่คง 630710770'));
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: const Answer1(),
+    );
   }
 }
 
