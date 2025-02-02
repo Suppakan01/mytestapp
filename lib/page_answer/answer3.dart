@@ -31,13 +31,13 @@ class Answer3 extends StatelessWidget {
               children: [
                 ProductDetail(
                   imgUrl:
-                      'https://f.ptcdn.info/064/051/000/opqdjw3vv6AsPvv3A0F-o.jpg',
+                      'https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/8de1d4312f5c28cb227e8529eee9312c2e078618_xxl-1.jpg',
                   name: 'Dress',
                   price: '500 THB',
                 ),
                 ProductDetail(
                   imgUrl:
-                      'https://jackmurphy.ie/cdn/shop/files/Una_Waterproof_Jacket_Navy_9.jpg?v=1731679728&width=1000',
+                      'https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/34544fb41774a3b1784cb12759b1e64524f856b3_xxl-1.jpg',
                   name: 'Jacket',
                   price: '900 THB',
                 ),
@@ -55,7 +55,7 @@ class Answer3 extends StatelessWidget {
                 ),
                 ProductDetail(
                   imgUrl:
-                      'https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/d99f28afda449f0664873515125946ff22d8af3c_xxl-1.jpg',
+                      'https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/54ae8144f177b53cde883514f1555daa4e0aefac_xxl-1.jpg',
                   name: 'Blazer',
                   price: '1,699 THB',
                 ),
