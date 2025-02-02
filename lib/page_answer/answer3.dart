@@ -31,7 +31,7 @@ class Answer3 extends StatelessWidget {
               children: [
                 ProductDetail(
                   imgUrl:
-                      'https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/8de1d4312f5c28cb227e8529eee9312c2e078618_xxl-1.jpg',
+                      'https://d29c1z66frfv6c.cloudfront.net/pub/media/catalog/product/large/8de1d4312f5c28cb227e8529eee9312c2e078618_xxl-1.jpg ',
                   name: 'Dress',
                   price: '500 THB',
                 ),
