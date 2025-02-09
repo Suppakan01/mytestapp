@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'form/registration_form.dart';
+import 'package:mytestapp/aqi_service/aqi_page.dart';
 
-/*import 'package:mytestapp/page_answer/answer1.dart';
+//import 'user_model.dart';
+/*import 'form/registration_form.dart';
+import 'package:mytestapp/page_answer/answer1.dart';
 import 'package:mytestapp/page_answer/answer2.dart';>
 import 'package:mytestapp/page_answer/answer3.dart';
 import 'package:mytestapp/page_answer/answer4.dart';
@@ -14,15 +16,12 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        title: 'Flutter Demo',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-          useMaterial3: true,
-        ),
-        home: const RegistrationForm());
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: AQIPage(),
+    );
   }
 }
