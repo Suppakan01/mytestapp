@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mytestapp/aqi_service/aqi_page.dart';
+//import 'package:mytestapp/aqi_service/aqi_page.dart';
+import 'package:mytestapp/product/page.dart';
 
 //import 'user_model.dart';
 /*import 'form/registration_form.dart';
@@ -19,9 +20,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: AQIPage(),
+    return MaterialApp(
+      title: 'Product List',
+      theme: ThemeData(
+        primarySwatch: Colors.blueGrey,
+      ),
+      home: const ProductPage(),
     );
   }
 }
