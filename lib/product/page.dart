@@ -30,14 +30,14 @@ class _ProductPageState extends State<ProductPage> {
     },
   ];
 
-  // ฟังก์ชันเพิ่มสินค้า
+  //เพิ่มสินค้า
   void _addProduct(Map<String, dynamic> newProduct) {
     setState(() {
       _products.add(newProduct);
     });
   }
 
-  // 🔥 ฟังก์ชันแก้ไขสินค้า
+  //แก้ไขสินค้า
   void _editProduct(int id, Map<String, dynamic> updatedProduct) {
     setState(() {
       final index = _products.indexWhere((product) => product["id"] == id);
@@ -51,7 +51,7 @@ class _ProductPageState extends State<ProductPage> {
     );
   }
 
-  // 🔥 ฟังก์ชันลบสินค้า
+  //ลบสินค้า
   void _deleteProduct(int id) {
     setState(() {
       _products.removeWhere((product) => product["id"] == id);
